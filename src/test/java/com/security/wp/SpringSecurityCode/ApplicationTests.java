@@ -1,4 +1,4 @@
-package com.security.wp.__SpringSecurityCode;
+package com.security.wp.SpringSecurityCode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
