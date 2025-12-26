@@ -17,7 +17,7 @@ public class SecurityConfig {
                 .password("piyush123")
                 .roles("USER", "ADMIN").build();
 
-        UserDetails user2 = User.withDefaultPasswordEncoder()
+        UserDetails user2 = User.withDefaultPasswordEncoder() // password encoder is used to encode the password
                 .username("shreyash")
                 .password("shreyash123")
                 .roles("USER", "ADMIN").build();
